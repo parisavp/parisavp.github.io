@@ -1,0 +1,106 @@
+#cv {
+    .hero {
+        position: relative;
+
+        .hero-img {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            background-image: url("../images/cv.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            height: 600px;
+            margin-top: 30px;
+
+            &:after {
+                content: "";
+                background: #F2D1D1;
+                position: absolute;
+                bottom: 0px;
+                width: 100%;
+                height: 220px;
+                z-index: -1;
+            }
+
+            @media (max-width: 600px) {
+                height: 300px;
+
+                &:after {
+                    height: 150px;
+                }
+            }
+        }
+    }
+
+    .name-cv {
+        position: relative;
+        background-color: #FCF3F3;
+        border-radius: 70px;
+        padding: 1px 40px;
+        text-align: center;
+        width: 40%;
+        margin: -35px auto auto;
+        z-index: 2;
+
+        @media (max-width: 600px) {
+            width: 65%;
+        }
+    }
+
+    .down-button {
+        display: block;
+        text-align: center;
+        margin: 20px auto auto;
+    }
+
+    .cv {
+        li {
+            font-size: 17px;
+            color: #2E2E2E;
+            padding-top: 10px;
+
+            @media (max-width: 1100px) {
+                font-size: 15px;
+            }
+            @media (max-width: 600px) {
+                font-size: 14px;
+            }
+        }
+    }
+
+    table {
+        display: table;
+        width: 70%;
+        color: #2E2E2E;
+
+        li {
+            margin-top: -8px;
+        }
+
+        span {
+            color: #C9C9C9;
+        }
+
+        @media (max-width: 1100px) {
+            width: 80%;
+        }
+
+        @media (max-width: 600px) {
+            width: 100%;
+        }
+    }
+
+    .rate {
+        font-size: 25px;
+
+        @media (max-width: 1100px) {
+            font-size: 23px;
+        }
+
+        @media (max-width: 600px) {
+            font-size: 19px;
+        }
+    }
+}

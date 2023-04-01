@@ -2,102 +2,109 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Parisa Yasaie</title>
-    <link rel="stylesheet" href="../css/contact-style.css">
-    <link rel="shortcut icon" href="../images/yasaB.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/b0ea804031.js" crossorigin="anonymous"></script>
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../images/yasaB.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="name hide-desktop"><a href="../index.html">Parisa Yasaie</a></div>
+<header>
+    <nav class="container">
+        <div class="name hide-desktop"><a href="#">Parisa Yasaie</a></div>
 
-            <div class="hide-mobile social-media">
-                <a href="mailto:parisa.vamp@gmail.com">
-                    <span class="fa fa-envelope-o"></span>
-                </a>
-                <a href="http://www.linkedin.com/in/parisavp">
-                    <span class="fa fa-linkedin"></span>
-                </a>
-                <a href="http://www.instagram.com/parisavp">
-                    <span class="fa fa-instagram"></span>
-                </a>
-                <a href="http://www.dribbble.com/parisavp">
-                    <span class="fa fa-dribbble"></span>
-                </a>
-            </div>
-
-            <div class="menu hide-desktop">
-                <img src="../images/ham.svg" alt="toggle menu" id="menu">
-            </div>
-
-            <ul class="hide-mobile nav" id="nav">
-                <li id="exit" class="exit hide-desktop"><img src="../images/exit.svg" alt="exit"></li>
-                <li><a href="../index.html">Home</a></li>
-                <li>
-                    <a href="#">Portfolio <span class="hide-mobile"><span class="fa fa-angle-down"></span></span></a>
-                    <ul>
-                        <li><a href="uxui.html">UX/UI Designs</a></li>
-                        <li><a href="graphic.html">Graphic Designs</a></li>
-                    </ul>
-                </li>
-                <li><a href="cv.html">CV</a></li>
-                <li class="active">Contact</li>
-            </ul>
-        </nav>
-    </header>
-</div>
-
-<div class="contact">
-    <h1>Contact me</h1>
-    <h2><span class="fas fa-phone"></span>+31 6 17961879</h2>
-    <h2><span class="fas fa-map-marker-alt"></span>Hoogstraat 270, Eindhoven</h2>
-    <h2><span class="fas fa-envelope"></span>parisa.vamp@gmail.com</h2>
-    <h2><span class="fa fa-linkedin"></span>linkedin.com/in/parisavp</h2>
-    <h2><span class="fa fa-instagram"></span>Instagram.com/parisavp</h2>
-    <h2><span class="fa fa-dribbble"></span>dribbble.com/parisavp</h2>
-    <h2><span class="fa fa-telegram"></span>telegram.me/parisavp</h2>
-
-    <div class="image">
-        <img src="../images/contact.png" alt="contact">
-    </div>
-</div>
-
-<footer>
-    <nav class="social-media">
+        <div class="hide-mobile social-media">
             <a href="mailto:parisa.vamp@gmail.com">
                 <span class="fa fa-envelope-o"></span>
             </a>
-            <a href="http://www.linkedin.com/in/parisavp">
+            <a href="https://www.linkedin.com/in/parisavp">
                 <span class="fa fa-linkedin"></span>
             </a>
-            <a href="http://www.instagram.com/parisavp">
+            <a href="https://www.instagram.com/parisavp">
                 <span class="fa fa-instagram"></span>
             </a>
-            <a href="http://www.dribbble.com/parisavp">
+            <a href="https://www.dribbble.com/parisavp">
                 <span class="fa fa-dribbble"></span>
             </a>
+        </div>
+
+        <div class="hide-desktop" id="menu"></div>
+
+        <ul class="hide-mobile" id="nav">
+            <li class="hide-desktop" id="exit"></li>
+
+            <li><a href="../index.html">Home</a></li>
+            <li>
+                <a href="#">Portfolio <span class="hide-mobile"><span class="fa fa-angle-down"></span></span></a>
+                <ul>
+                    <li><a href="uxui.html">UX/UI Designs</a></li>
+                    <li><a href="graphic.html">Graphic Designs</a></li>
+                </ul>
+            </li>
+            <li><a href="cv.html">CV</a></li>
+            <li class="active">Contact</li>
+        </ul>
     </nav>
-    <p><strong>© Developed By Parisa Yasaie</strong></p>
-</footer>
+</header>
 
-    <script>
-        var menu = document.getElementById('menu')
-        var nav = document.getElementById('nav')
-        var exit = document.getElementById('exit')
+<main>
+    <div class="container contact">
+        <div>
+            <h1>Contact me</h1>
 
-        menu.addEventListener('click', function(e){
-            nav.classList.toggle('hide-mobile');
-            e.preventDefault();
-        });
+            <ul>
+                <li><span class="fa fa-phone fa-fw"></span>+31 6 17961879</li>
+                <li><span class="fa fa-map-marker fa-fw"></span>Hoogstraat 270, Eindhoven</li>
+                <li><span class="fa fa-envelope fa-fw"></span>parisa.vamp@gmail.com</li>
+                <li><span class="fa fa-linkedin fa-fw"></span>linkedin.com/in/parisavp</li>
+                <li><span class="fa fa-instagram fa-fw"></span>Instagram.com/parisavp</li>
+                <li><span class="fa fa-dribbble fa-fw"></span>dribbble.com/parisavp</li>
+                <li><span class="fa fa-telegram fa-fw"></span>telegram.me/parisavp</li>
+            </ul>
+        </div>
 
-        exit.addEventListener('click', function(e){
-            nav.classList.add('hide-mobile');
-            e.preventDefault();
-        });
-    </script>
+        <div id="image"></div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <nav class="social-media">
+                <a href="mailto:parisa.vamp@gmail.com">
+                    <span class="fa fa-envelope-o"></span>
+                </a>
+                <a href="https://www.linkedin.com/in/parisavp">
+                    <span class="fa fa-linkedin"></span>
+                </a>
+                <a href="https://www.instagram.com/parisavp">
+                    <span class="fa fa-instagram"></span>
+                </a>
+                <a href="https://www.dribbble.com/parisavp">
+                    <span class="fa fa-dribbble"></span>
+                </a>
+            </nav>
+
+            <div>
+                <strong>© Developed By Parisa Yasaie</strong>
+            </div>
+        </div>
+    </footer>
+</main>
+
+<script>
+    var menu = document.getElementById('menu')
+    var nav = document.getElementById('nav')
+    var exit = document.getElementById('exit')
+
+    menu.addEventListener('click', function (e) {
+        nav.classList.toggle('hide-mobile');
+        e.preventDefault();
+    });
+
+    exit.addEventListener('click', function (e) {
+        nav.classList.add('hide-mobile');
+        e.preventDefault();
+    });
+</script>
 </body>
 </html>

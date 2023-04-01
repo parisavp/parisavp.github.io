@@ -2,6 +2,7 @@
     font-family: 'Century Gothic';
     src: url('../CenturyGothic.ttf');
 }
+
 @font-face {
     font-family: 'Palace Script MT';
     src: url('../PalaceScriptMT.ttf');
@@ -365,7 +366,7 @@ footer a:hover {
         display: none;
     }
 
-    nav ul{
+    nav ul {
         position: fixed;
         width: 40%;
         top: 0;
@@ -423,7 +424,7 @@ footer a:hover {
     .exit {
         display: block;
         text-align: right;
-        
+
     }
 
     .exit img {
@@ -437,11 +438,11 @@ footer a:hover {
         margin: -20px 5px;
         cursor: pointer;
     }
-    
+
     h1 {
         font-size: 22px;
     }
-    
+
     h2 {
         font-size: 22px;
     }
@@ -458,15 +459,15 @@ footer a:hover {
         font-size: 14px;
         line-height: 20px;
     }
-    
+
     .box {
         height: 1rem;
     }
-    
+
     .button {
         font-size: 13px;
     }
-    
+
     footer {
         display: block;
         margin-top: 70px;
@@ -477,7 +478,7 @@ footer a:hover {
     .titleg {
         top: -8.8rem;
     }
-    
+
     .titleg p {
         font-size: 18px;
         margin-top: -30px;

@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../CenturyGothic.ttf');
+}
+
+@font-face {
+    font-family: 'Palace Script MT';
+    src: url('../PalaceScriptMT.ttf');
+}
+
+p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+ul {
+    margin: 0 15px;
+    padding: 0;
+
+    li {
+        padding: 0 10px;
+    }
+}
+
+h1 {
+    font-size: 50px;
+
+    @media (max-width: 1100px) {
+        font-size: 35px;
+    }
+}
+
+h2 {
+    color: #E71313;
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    background: #FCF3F3;
+    font-family: 'Century Gothic', 'Palace Script MT', serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    height: calc(100vh - 85px);
+    justify-content: space-between;
+}
+
+.social-media {
+    a {
+        float: left;
+        text-decoration: none;
+        font-size: 19px;
+        color: black;
+        padding: 30px 17px;
+
+        &:first-child {
+            padding-left: 0;
+        }
+    }
+}
+
+.container {
+    padding: 0 10%;
+
+    @media (max-width: 1100px) {
+        padding: 0 60px;
+    }
+
+    @media (max-width: 600px) {
+        padding: 0 20px;
+    }
+
+    &-sm {
+        width: 540px;
+        margin: 0 auto;
+
+        @media (max-width: 600px) {
+            width: 100%;
+        }
+    }
+}
+
+.fa-angle-down {
+    margin-left: 3px;
+}
+
+.hide-mobile {
+    @media (max-width: 1100px) {
+        display: none;
+    }
+}
+
+.hide-desktop {
+    @media (min-width: 1100px) {
+        display: none;
+    }
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+.my-70 {
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.button {
+    background-color: #E71313;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 7px 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+    :hover {
+        background-color: #cf1414;
+    }
+
+    @media (max-width: 1100px) {
+        font-size: 13px;
+    }
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.line {
+    content: "";
+    width: 25%;
+    text-align: center;
+    position: relative;
+    margin: 40px auto;
+
+    @media (max-width: 1100px) {
+        width: 40%;
+    }
+
+    &-pink {
+        border-bottom: 10px dotted #F2D1D1;
+    }
+
+    &-red {
+        border-bottom: 10px dotted #E71313;
+    }
+}
