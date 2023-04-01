@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parisa Yasaie</title>
+    <link rel="stylesheet" href="../css/contact-style.css">
+    <link rel="shortcut icon" href="../images/yasaB.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/b0ea804031.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="name hide-desktop"><a href="../index.html">Parisa Yasaie</a></div>
+
+            <div class="hide-mobile social-media">
+                <a href="mailto:parisa.vamp@gmail.com">
+                    <span class="fa fa-envelope-o"></span>
+                </a>
+                <a href="http://www.linkedin.com/in/parisavp">
+                    <span class="fa fa-linkedin"></span>
+                </a>
+                <a href="http://www.instagram.com/parisavp">
+                    <span class="fa fa-instagram"></span>
+                </a>
+                <a href="http://www.dribbble.com/parisavp">
+                    <span class="fa fa-dribbble"></span>
+                </a>
+            </div>
+
+            <div class="menu hide-desktop">
+                <img src="../images/ham.svg" alt="toggle menu" id="menu">
+            </div>
+
+            <ul class="hide-mobile nav" id="nav">
+                <li id="exit" class="exit hide-desktop"><img src="../images/exit.svg" alt="exit"></li>
+                <li><a href="../index.html">Home</a></li>
+                <li>
+                    <a href="#">Portfolio <span class="hide-mobile"><span class="fa fa-angle-down"></span></span></a>
+                    <ul>
+                        <li><a href="uxui.html">UX/UI Designs</a></li>
+                        <li><a href="graphic.html">Graphic Designs</a></li>
+                    </ul>
+                </li>
+                <li><a href="cv.html">CV</a></li>
+                <li class="active">Contact</li>
+            </ul>
+        </nav>
+    </header>
+</div>
+
+<div class="contact">
+    <h1>Contact me</h1>
+    <h2><span class="fas fa-phone"></span>+31 6 17961879</h2>
+    <h2><span class="fas fa-map-marker-alt"></span>Hoogstraat 270, Eindhoven</h2>
+    <h2><span class="fas fa-envelope"></span>parisa.vamp@gmail.com</h2>
+    <h2><span class="fa fa-linkedin"></span>linkedin.com/in/parisavp</h2>
+    <h2><span class="fa fa-instagram"></span>Instagram.com/parisavp</h2>
+    <h2><span class="fa fa-dribbble"></span>dribbble.com/parisavp</h2>
+    <h2><span class="fa fa-telegram"></span>telegram.me/parisavp</h2>
+
+    <div class="image">
+        <img src="../images/contact.png" alt="contact">
+    </div>
+</div>
+
+<footer>
+    <nav class="social-media">
+            <a href="mailto:parisa.vamp@gmail.com">
+                <span class="fa fa-envelope-o"></span>
+            </a>
+            <a href="http://www.linkedin.com/in/parisavp">
+                <span class="fa fa-linkedin"></span>
+            </a>
+            <a href="http://www.instagram.com/parisavp">
+                <span class="fa fa-instagram"></span>
+            </a>
+            <a href="http://www.dribbble.com/parisavp">
+                <span class="fa fa-dribbble"></span>
+            </a>
+    </nav>
+    <p><strong>© Developed By Parisa Yasaie</strong></p>
+</footer>
+
+    <script>
+        var menu = document.getElementById('menu')
+        var nav = document.getElementById('nav')
+        var exit = document.getElementById('exit')
+
+        menu.addEventListener('click', function(e){
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+
+        exit.addEventListener('click', function(e){
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+    </script>
+</body>
+</html>
