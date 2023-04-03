@@ -70,8 +70,8 @@ header {
         }
 
         @media (max-width: 1100px) {
-            margin-bottom: 40px;
-            margin-top: 40px;
+            margin-bottom: 20px;
+            margin-top: 20px;
 
             ul {
                 position: fixed;
@@ -81,7 +81,7 @@ header {
                 z-index: 5;
                 float: left;
                 background: #F2D1D1;
-                padding: 40px 0 20px 20px;
+                padding: 20px 0 20px 20px;
                 height: 100%;
 
                 li {
