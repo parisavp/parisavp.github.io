@@ -5,14 +5,14 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Parisa Yasaie</title>
-    <link href="../css/graphic-style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
     <link href="../images/yasaB.ico" rel="shortcut icon" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 <header>
-    <nav>
-        <div class="name hide-desktop"><a href="../index.html">Parisa Yasaie</a></div>
+    <nav class="container">
+        <div class="name hide-desktop"><a href="#">Parisa Yasaie</a></div>
 
         <div class="hide-mobile social-media">
             <a href="mailto:parisa.vamp@gmail.com">
@@ -29,18 +29,17 @@
             </a>
         </div>
 
-        <div class="menu hide-desktop">
-            <img alt="toggle menu" id="menu" src="../images/ham.svg">
-        </div>
+        <div class="hide-desktop" id="menu"></div>
 
-        <ul class="hide-mobile nav" id="nav">
-            <li class="exit hide-desktop" id="exit"><img alt="exit" src="../images/exit.svg"></li>
+        <ul class="hide-mobile" id="nav">
+            <li class="hide-desktop" id="exit"></li>
+
             <li><a href="../index.html">Home</a></li>
             <li>
                 <a href="#">Portfolio <span class="hide-mobile"><span class="fa fa-angle-down"></span></span></a>
                 <ul>
                     <li><a href="uxui.html">UX/UI Designs</a></li>
-                    <li><a href="graphic.html">Graphic Designs</a></li>
+                    <li class="active">Graphic Designs</li>
                 </ul>
             </li>
             <li><a href="cv.html">CV</a></li>
@@ -49,127 +48,121 @@
     </nav>
 </header>
 
-<div class="box"></div>
-
-<div class="titleg">
-    <h1>Graphic Designs</h1>
-    <p>Here is some of my recent works across each fields</p>
-</div>
-
-<div class="break">
-    <img alt="glow" class="glow-1" src="../images/glow.svg">
-    <p>Branding</p>
-</div>
-
-<div class="line-break"></div>
-
-<div class="branding">
-    <div class="column">
-        <img src="../images/Dadvar.jpg">
-        <img src="../images/Rayan.jpg">
+<main>
+    <div class="titleg">
+        <h1>Graphic Designs</h1>
+        <p>Here is some of my recent works across each fields</p>
     </div>
-    <div class="column">
-        <img src="../images/Yasagraphic.jpg">
-        <img src="../images/Erteqa.jpg">
-    </div>
-</div>
 
-<div class="break">
-    <img alt="glow" class="glow-3" src="../images/glow.svg">
-    <p>Book Cover</p>
-</div>
-
-<div class="line-break"></div>
-
-<div class="book-cover">
-    <div class="column">
-        <img src="../images/B-02.png">
+    <div class="break-text">
+        <span>Branding</span>
     </div>
-    <div class="column">
-        <img src="../images/B-01.png">
-    </div>
-    <div class="column">
-        <img src="../images/B-03.png">
-    </div>
-</div>
 
-<div class="break">
-    <img alt="glow" class="glow-4" src="../images/glow.svg">
-    <p>Poster</p>
-</div>
-
-<div class="line-break"></div>
-
-<div class="book-cover">
-    <div class="column">
-        <img src="../images/P-02.jpg">
+    <div class="row">
+        <div class="column-2">
+            <img class="round" src="../images/Dadvar.jpg">
+            <img class="round" src="../images/Rayan.jpg">
+        </div>
+        <div class="column-2">
+            <img class="round" src="../images/Yasagraphic.jpg">
+            <img class="round" src="../images/Erteqa.jpg">
+        </div>
     </div>
-    <div class="column">
-        <img src="../images/P-01.jpg">
-    </div>
-    <div class="column">
-        <img src="../images/P-03.jpg">
-    </div>
-</div>
 
-<div class="break">
-    <img alt="glow" class="glow-5" src="../images/glow.svg">
-    <p>Other Designs</p>
-</div>
-
-<div class="line-break"></div>
-
-<div class="s-media">
-    <div class="column">
-        <img src="../images/O-01.jpg">
-        <img src="../images/O-02.jpg">
-        <img src="../images/O-03.jpg">
+    <div class="break-text">
+        <span>Book Cover</span>
     </div>
-    <div class="column">
-        <img src="../images/O-04.jpg">
-        <img src="../images/O-05.jpg">
-        <img src="../images/O-06.jpg">
-        <img src="../images/O-07.jpg">
-        <img src="../images/O-08.jpg">
-    </div>
-    <div class="column">
-        <img src="../images/O-09.jpg">
-        <img src="../images/O-10.jpg">
-        <img src="../images/O-11.jpg">
-    </div>
-    <div class="column">
-        <img src="../images/O-12.jpg">
-        <img src="../images/O-13.jpg">
-        <img src="../images/O-14.jpg">
-    </div>
-</div>
 
-<div class="line"></div>
+    <div class="row">
+        <div class="column-3">
+            <img class="round" src="../images/B-02.png">
+        </div>
+        <div class="column-3">
+            <img class="round" src="../images/B-01.png">
+        </div>
+        <div class="column-3">
+            <img class="round" src="../images/B-03.png">
+        </div>
+    </div>
 
-<div class="container">
-    <h2>I can help.</h2>
-    <h4>I’m currently available for freelance work.</h4>
-    <p>If you have a project that you want to start,
-        think you need my help with something or just fancy saying hey, then get in touch.</p>
-    <a class="button" href="#">Message me</a>
-</div>
-<footer>
-    <nav class="social-media">
-        <a href="mailto:parisa.vamp@gmail.com">
-            <span class="fa fa-envelope-o"></span>
-        </a>
-        <a href="https://www.linkedin.com/in/parisavp">
-            <span class="fa fa-linkedin"></span>
-        </a>
-        <a href="https://www.instagram.com/parisavp">
-            <span class="fa fa-instagram"></span>
-        </a>
-        <a href="https://www.dribbble.com/parisavp">
-            <span class="fa fa-dribbble"></span>
-        </a>
-    </nav>
-    <p><strong>© Developed By Parisa Yasaie</strong></p>
-</footer>
+    <div class="break-text">
+        <span>Poster</span>
+    </div>
+
+    <div class="row">
+        <div class="column-3">
+            <img class="round" src="../images/P-02.jpg">
+        </div>
+        <div class="column-3">
+            <img class="round" src="../images/P-01.jpg">
+        </div>
+        <div class="column-3">
+            <img class="round" src="../images/P-03.jpg">
+        </div>
+    </div>
+
+    <div class="break-text">
+        <span>Other Designs</span>
+    </div>
+
+    <div class="row">
+        <div class="column-4">
+            <img src="../images/O-01.jpg">
+            <img src="../images/O-02.jpg">
+            <img src="../images/O-03.jpg">
+        </div>
+        <div class="column-4">
+            <img src="../images/O-04.jpg">
+            <img src="../images/O-05.jpg">
+            <img src="../images/O-06.jpg">
+            <img src="../images/O-07.jpg">
+            <img src="../images/O-08.jpg">
+        </div>
+        <div class="column-4">
+            <img src="../images/O-09.jpg">
+            <img src="../images/O-10.jpg">
+            <img src="../images/O-11.jpg">
+        </div>
+        <div class="column-4">
+            <img src="../images/O-12.jpg">
+            <img src="../images/O-13.jpg">
+            <img src="../images/O-14.jpg">
+        </div>
+    </div>
+
+    <div class="line line-red"></div>
+
+    <div class="container-sm mb-70 text-center">
+        <h2>I can help.</h2>
+        <h4>I’m currently available for freelance work.</h4>
+        <p>If you have a project that you want to start,
+            think you need my help with something or just fancy saying hey, then get in touch.</p>
+        <a class="button" href="mailto:parisa.vamp@gmail.com">Message me</a>
+    </div>
+
+    <footer>
+        <div class="container">
+            <nav class="social-media">
+                <a href="mailto:parisa.vamp@gmail.com">
+                    <span class="fa fa-envelope-o"></span>
+                </a>
+                <a href="https://www.linkedin.com/in/parisavp">
+                    <span class="fa fa-linkedin"></span>
+                </a>
+                <a href="https://www.instagram.com/parisavp">
+                    <span class="fa fa-instagram"></span>
+                </a>
+                <a href="https://www.dribbble.com/parisavp">
+                    <span class="fa fa-dribbble"></span>
+                </a>
+            </nav>
+
+            <div>
+                <strong>© Developed By Parisa Yasaie</strong>
+            </div>
+        </div>
+    </footer>
+</main>
 
 <script>
     var menu = document.getElementById('menu')
